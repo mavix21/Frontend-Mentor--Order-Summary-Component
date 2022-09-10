@@ -1,0 +1,36 @@
+@use "../abstracts/" as *;
+@use "sass:color";
+
+.summary {
+  padding: 1rem;
+  border-radius: rem(8);
+  display: flex;
+  gap: rem(20);
+  align-items: center;
+  background-color: var(--neutral-blue-100);
+
+  &__plan {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: rem(6);
+  }
+
+  &__plan-type {
+    font-weight: 900;
+    color: var(--neutral-blue-900);
+  }
+
+  &__change {
+    font-size: rem(14);
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--primary-bright-blue);
+    margin-left: auto;
+    transition: all 0.15s;
+
+    &:hover {
+      color: color.scale(hsl(245, 75%, 52%), $lightness: 32%);
+    }
+  }
+}

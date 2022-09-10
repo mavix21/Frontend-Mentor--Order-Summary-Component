@@ -1,0 +1,27 @@
+@use "sass:color";
+
+.button {
+  font-weight: 900;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-block: 1em;
+  border-radius: 0.6rem;
+  transition: all 0.15s;
+
+  &[data-type="primary"] {
+    background-color: var(--primary-bright-blue);
+    color: #fff;
+
+    &:hover {
+      background-color: color.scale(hsl(245, 75%, 52%), $lightness: 32%);
+    }
+  }
+
+  &[data-type="naked"] {
+    &:hover {
+      color: var(--neutral-blue-900);
+      background-color: color.scale(#fff, $lightness: -6%);
+    }
+  }
+}

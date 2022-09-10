@@ -1,0 +1,9 @@
+.order-summary-page {
+  background-image: url("../../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media (min-width: 600px) {
+    background-image: url("../../images/pattern-background-desktop.svg");
+  }
+}
