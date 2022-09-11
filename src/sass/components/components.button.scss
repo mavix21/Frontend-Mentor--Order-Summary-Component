@@ -22,7 +22,6 @@
   &[data-type="naked"] {
     &:hover {
       color: var(--neutral-blue-900);
-      background-color: color.scale(#fff, $lightness: -6%);
     }
   }
 }
