@@ -9,6 +9,10 @@
   align-items: center;
   background-color: var(--neutral-blue-100);
 
+  @media (min-width: 600px) {
+    padding: 1.5rem;
+  }
+
   &__plan {
     text-align: left;
     display: flex;
