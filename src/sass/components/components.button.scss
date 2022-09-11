@@ -12,6 +12,7 @@
   &[data-type="primary"] {
     background-color: var(--primary-bright-blue);
     color: #fff;
+    box-shadow: 0px 10px 20px 0px hsla(245, 75%, 52%, 0.6);
 
     &:hover {
       background-color: color.scale(hsl(245, 75%, 52%), $lightness: 32%);
