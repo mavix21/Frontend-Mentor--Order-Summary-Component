@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: <a href="https://www.frontendmentor.io/solutions/product-preview-card-component-using-sass-bem-and-itcss-JQif41HVUx" target="_blank">My solution at frontendmentor.io</a>
+- Solution URL: <a href="https://www.frontendmentor.io/solutions/order-summary-component-using-sass-bem-and-itcss-architecture-qnPhfjySi2" target="_blank">My solution at frontendmentor.io</a>
 - Live Site URL: <a href="https://order-summary-component-mavix.netlify.app/" target="_blank" rel="noopener">Click here to see my solution in your browser!</a>
 
 ## My process
